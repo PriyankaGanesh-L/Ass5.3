@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Nested Objects</title>
+    <script>
+        var Employee = {
+            name: 'priyanka',
+            age: 25,
+            salary: 000,
+            address: {
+                addressLine: "xxxx",
+                city: "Chennai",
+                state : "TamilNadu",
+                pincode : 600000
+
+            },
+            pob: 'Chennai'
+        };
+
+        console.log("Employee Details");
+        console.log("The name is " + Employee.name);
+        console.log("The age is " + Employee.age);
+        console.log("The salary is " + Employee.salary);
+        console.log("The address is \n" + Employee.address.addressLine +  " , \n" + Employee.address.city + " , \n" +Employee.address.state + " , \n"+ Employee.address.pincode + " .");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
